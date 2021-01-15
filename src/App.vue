@@ -17,7 +17,7 @@
           <v-spacer></v-spacer>
           <v-col cols="4">
           U.S. Vaccination Progress
-          <v-progress-linear value="1" height="16"></v-progress-linear>
+          <v-progress-linear value="1" height="16"></v-progress-linear>1%
           </v-col>
           <v-spacer></v-spacer>
         </v-row>
@@ -27,6 +27,7 @@
           <v-col cols="12">
           </v-col>
         </v-row>
+        <div class="flourish-embed flourish-table" data-src="visualisation/4969174"></div>
       </v-container>
     </v-main>
   </v-app>
