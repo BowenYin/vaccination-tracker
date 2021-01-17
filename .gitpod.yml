@@ -1,3 +1,2 @@
 tasks:
-  - init: npm install
-    command: npm run serve
+  - init: npm install && npm run build

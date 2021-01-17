@@ -21,13 +21,13 @@
           </v-col>
           <v-spacer></v-spacer>
         </v-row>
-        <div class="flourish-embed flourish-map" data-src="visualisation/4913802"></div>
+        <div class="flourish-embed flourish-map" data-src="visualisation/4988587"></div>
         <v-row class="text-center">
           
           <v-col cols="12">
           </v-col>
         </v-row>
-        <div class="flourish-embed flourish-table" data-src="visualisation/4969174"></div>
+        <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
       </v-container>
     </v-main>
   </v-app>
