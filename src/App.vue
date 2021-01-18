@@ -11,24 +11,7 @@
     </v-app-bar>
 
     <v-main>
-    
-      <v-container>
-        <v-row class="my-4">
-          <v-spacer></v-spacer>
-          <v-col cols="4">
-          U.S. Vaccination Progress
-          <v-progress-linear value="1" height="16"></v-progress-linear>1%
-          </v-col>
-          <v-spacer></v-spacer>
-        </v-row>
-        <div class="flourish-embed flourish-map" data-src="visualisation/4988587"></div>
-        <v-row class="text-center">
-          
-          <v-col cols="12">
-          </v-col>
-        </v-row>
-        <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
-      </v-container>
+      <router-view></router-view>
     </v-main>
   </v-app>
 </template>
