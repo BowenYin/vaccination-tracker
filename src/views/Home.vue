@@ -38,7 +38,7 @@
     </v-row>
     <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
     <v-row>
-      <p class="caption">Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is accurate. Learn more <a href="/about">here</a>.</p>
+      <p class="caption">Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
     </v-row>
   </v-container>
 </template>
