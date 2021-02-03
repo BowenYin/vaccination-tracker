@@ -2,10 +2,10 @@
   <v-container>
     <v-row no-gutters>
       <v-col cols="12">
-        <h2 class="text-center">How close to herd immunity?</h2>
+        <h1 class="text-center">How close to herd immunity?</h1>
       </v-col>
     </v-row>
-    <v-row class="my-4">
+    <v-row class="mt-1">
       <v-col cols="12">
         <v-row no-gutters>
           <v-spacer></v-spacer>
@@ -37,7 +37,9 @@
     </v-row>
     <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
     <v-row>
-      <p class="caption">Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
+      <v-col>
+        <p class="body-2">Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
+      </v-col>
     </v-row>
   </v-container>
 </template>
