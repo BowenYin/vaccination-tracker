@@ -2,7 +2,7 @@
   <v-container>
     <v-row no-gutters>
       <v-col cols="12">
-        <h1 class="text-center">How close to herd immunity?</h1>
+        <h1 class="text-center">How close to herd immunity?*</h1>
       </v-col>
     </v-row>
     <v-row class="mt-1">
@@ -52,9 +52,9 @@ export default {
   },
   data: () => ({
     vaccinatedWidth: 350*0.096,
-    recoveredWidth: 350*0.030,
+    recoveredWidth: 350*0.053,
     vaccinatedPct: 9.6,
-    recoveredPct: 3.0,
+    recoveredPct: 5.3,
     pastWkChange: 1.9,
   }),
 }
