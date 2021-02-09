@@ -38,7 +38,7 @@
     <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
     <v-row>
       <v-col>
-        <p class="body-2">Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
+        <p class="body-2">*Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
       </v-col>
     </v-row>
   </v-container>
@@ -51,9 +51,9 @@ export default {
   components: {
   },
   data: () => ({
-    vaccinatedWidth: 350*0.096,
+    vaccinatedWidth: 350*0.099,
     recoveredWidth: 350*0.053,
-    vaccinatedPct: 9.6,
+    vaccinatedPct: 9.9,
     recoveredPct: 5.3,
     pastWkChange: 1.9,
   }),
