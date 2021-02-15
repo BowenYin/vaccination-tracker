@@ -45,15 +45,14 @@
 </template>
 
 <script>
-
 export default {
   name: 'Home',
   components: {
   },
   data: () => ({
-    vaccinatedWidth: 350*0.099,
+    vaccinatedWidth: 350*0.117,
     recoveredWidth: 350*0.053,
-    vaccinatedPct: 9.9,
+    vaccinatedPct: 11.7,
     recoveredPct: 5.3,
     pastWkChange: 1.9,
   }),
