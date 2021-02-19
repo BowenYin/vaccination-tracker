@@ -2,7 +2,7 @@
   <v-container>
     <v-row>
       <v-col cols="12">
-        <p>Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. See more about herd immunity and data below.</p>
+        <v-alert dense outlined>Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. See more about herd immunity and data below.</v-alert>
         <h2>Data in Detail</h2>
         <h3>Herd Immunity</h3>
         <p>There are <a href="https://www.jhsph.edu/covid-19/articles/achieving-herd-immunity-with-covid19.html" target="_blank">two paths</a> to immunity: 1) exposure and infection with the virus and 2) vaccination. Encountering the virus is <a href="https://www.nature.com/articles/d41586-020-02948-4" target="_blank">extremely unsafe</a> without a vaccine, but both ways result in the body producing antibodies against COVID-19. During herd immunity conditions, the average number of other people an infected person will infect should be <a href="https://www.nature.com/articles/d41586-020-02009-w" target="_blank">roughly below 1</a>. This means the disease is declining.</p>
