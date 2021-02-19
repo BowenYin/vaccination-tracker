@@ -12,7 +12,7 @@
         <p>Vaccination data comes from the <a href="https://covid.cdc.gov/covid-data-tracker/#vaccinations" target="_blank">CDC</a>. Data on COVID-19 recoveries comes from <a href="https://www.worldometers.info/coronavirus/country/us/" target="_blank">Worldometers.info</a>, based in Dover, Delaware, U.S.A. The national number of recoveries is very underreported as not all states provide this information. Moreover, there is no standard metric for what a recovered patient is, and many states use different definitions.</p>
         <h2>About</h2>
         <p>This website was created by three high school seniors from California. Data comes from state and federal sources. Thank you to Professor Lorene Nelson, PhD, MS, and Professor Steven Goodman, MD, MHS, PhD for their insight and contributions to our knowledge about the epidemiology of COVID-19. If you have any questions, feel free to email: <a href="mailto:vaccineprogressinfo@gmail.com" target="_blank">vaccineprogressinfo@gmail.com</a>.</p>
-        <p class="caption text--secondary" style="font-size: 11px !important;">Built with &lt;/&gt; and Vue.js by Bowen Yin</p>
+        <p class="caption text--secondary" style="font-size: 11px !important;">Built with &lt;/&gt; and Vue.js by <a href="https://github.com/BowenYin" target="_blank" style="color: inherit;">Bowen Yin</a></p>
       </v-col>
     </v-row>
   </v-container>
