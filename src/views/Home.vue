@@ -50,11 +50,11 @@ export default {
   components: {
   },
   data: () => ({
-    vaccinatedWidth: 350*0.125,
+    vaccinatedWidth: 350*0.134,
     recoveredWidth: 350*0.053,
-    vaccinatedPct: 12.5,
+    vaccinatedPct: 13.4,
     recoveredPct: 5.7,
-    pastWkChange: 1.9,
+    pastWkChange: 2.5,
   }),
 }
 </script>
