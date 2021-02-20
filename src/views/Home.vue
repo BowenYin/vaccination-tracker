@@ -2,7 +2,8 @@
   <v-container>
     <v-row no-gutters>
       <v-col cols="12">
-        <h1 class="text-center">How close to herd immunity?<span class="font-weight-regular">*</span></h1>
+        <h1 v-if="$vuetify.breakpoint.smAndUp" class="text-center">How close to herd immunity?<span class="font-weight-regular">*</span></h1>
+        <h2 v-else class="text-center">How close to herd immunity?<span class="font-weight-regular">*</span></h2>
       </v-col>
     </v-row>
     <v-row class="mt-1">
@@ -36,25 +37,27 @@
       </v-col>
     </v-row>
     <div class="flourish-embed flourish-table" data-src="visualisation/4989564"></div>
-    <v-row>
-      <v-col>
-        <p class="body-2">*Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
+    <v-row justify="space-around">
+      <v-col cols="auto">
+        <p class="body-2" style="max-width: 1000px;">*Herd immunity occurs when enough people have protection from COVID-19 that the rest of the population is indirectly protected. Reaching herd immunity will result in declining infections but will not stop the pandemic entirely. There is no consensus on the exact percentage, but many experts now suggest that 70-85% is an accurate benchmark for herd immunity. Read more about our data and methods <a href="/about">here</a>.</p>
       </v-col>
     </v-row>
   </v-container>
 </template>
 
 <script>
+const vaxPct = window.vaxData?.vax || 13.4;
+const recPct = window.vaxData?.rec || 5.7;
 export default {
   name: 'Home',
   components: {
   },
   data: () => ({
-    vaccinatedWidth: 350*0.134,
-    recoveredWidth: 350*0.053,
-    vaccinatedPct: 13.4,
-    recoveredPct: 5.7,
-    pastWkChange: 2.5,
+    vaccinatedWidth: 350*parseFloat((vaxPct/100.0).toFixed(3)),
+    recoveredWidth: 350*parseFloat((recPct/100.0).toFixed(3)),
+    vaccinatedPct: vaxPct,
+    recoveredPct: recPct,
+    pastWkChange: window.vaxData?.wk || 2.5,
   }),
 }
 </script>

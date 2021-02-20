@@ -2,7 +2,8 @@
   <v-app>
     <v-app-bar app color="white" elevate-on-scroll>
       <div class="d-flex align-center">
-        <h3>U.S. Vaccination Tracker</h3>
+        <h3 v-if="$vuetify.breakpoint.smAndUp">U.S. Vaccination Tracker</h3>
+        <h4 v-else>U.S. Vaccination Tracker</h4>
       </div>
 
       <v-spacer></v-spacer>
