@@ -11,9 +11,14 @@
         <v-icon @click="$vuetify.theme.dark = !$vuetify.theme.dark">brightness_4</v-icon>
       </v-btn>-->
       <v-btn href="/about" text large :ripple="false">About</v-btn>
-      <v-btn icon :ripple="false" @click="toggleDark">
-        <v-icon>brightness_4</v-icon>
-      </v-btn>
+      <v-tooltip bottom open-delay="300" transition="fade-transition">
+        <template v-slot:activator="{on, attrs}">
+          <v-btn icon :ripple="false" v-bind="attrs" v-on="on" @click="toggleDark">
+            <v-icon>brightness_4</v-icon>
+          </v-btn>
+        </template>
+        <span>Toggle dark mode</span>
+      </v-tooltip>
     </v-app-bar>
 
     <v-main>
