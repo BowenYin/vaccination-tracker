@@ -17,7 +17,8 @@
             <v-icon>brightness_4</v-icon>
           </v-btn>
         </template>
-        <span>Toggle dark mode</span>
+        <span v-if="$vuetify.theme.dark">Turn on the lights</span>
+        <span v-else>Turn off the lights</span>
       </v-tooltip>
     </v-app-bar>
 
