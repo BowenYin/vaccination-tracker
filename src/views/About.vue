@@ -17,5 +17,25 @@
         <p class="caption text--secondary" style="font-size: 11px !important;">Built with &lt;/&gt; and Vue.js by <a href="https://github.com/BowenYin" target="_blank" style="color: inherit;">Bowen Yin</a>; created by Jason, Sara, Claire.</p>
       </v-col>
     </v-row>
+    <v-row justify="center" align="center" class="mt-0 mb-4">
+      <v-col cols="auto">
+        <div class="body-1">Follow us to stay updated!</div>
+      </v-col>
+      <v-col cols="auto" style="height: 48px;">
+        <a href="https://twitter.com/vaccinprogress" target="_blank">
+          <img src="../assets/twitter.svg" height="24">
+        </a>
+      </v-col>
+      <v-col cols="auto" style="height: 48px;">
+        <a href="https://www.facebook.com/vaccineprogressinfo" target="_blank">
+          <img src="../assets/facebook.svg" height="24">
+        </a>
+      </v-col>
+      <v-col cols="auto" style="height: 48px;">
+        <a href="https://www.linkedin.com/company/vaccine-progress-info/" target="_blank">
+          <img src="../assets/linkedin.svg" height="24">
+        </a>
+      </v-col>
+    </v-row>
   </v-container>
 </template>
