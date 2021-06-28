@@ -4,6 +4,7 @@
       <v-col cols="12">
         <h1 v-if="$vuetify.breakpoint.smAndUp" class="text-center">How close to herd immunity?<span class="font-weight-regular">*</span></h1>
         <h2 v-else class="text-center">How close to herd immunity?<span class="font-weight-regular">*</span></h2>
+        <h4 class="text-center">This site is no longer regularly updated. Last update: 5/29/21</h4>
       </v-col>
     </v-row>
     <v-row class="mt-1">
